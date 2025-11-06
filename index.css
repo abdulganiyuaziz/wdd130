@@ -51,7 +51,7 @@ h1{
     color: #fff;
 }
 .hero article img{
-    float: right;
+    float: left;
     width: 125px;
     margin-left: 16px;
 }
