@@ -1,6 +1,6 @@
 :root{
     --primary-color:#008080;
-    --accentl-color:#48ff00;
+    --accentl-color:#020201;
     --body-font:'Arial', sans-sarif;
     --heading-font:'Helvetica', sans-sarif;
 }
@@ -20,6 +20,20 @@ header, main, footer {
 .hero{
     position: relative;
     text-align: center;
+}
+article{
+    display: flex;
+    position: absolute;
+    top: 150px; ;
+    right: 290px; 
+    left: 290px; ;
+     opacity: o.7;
+    background-color: var(--accentl-color);
+        color: #fff;
+
+
+
+
 }
 .hero img{
     display: block;
@@ -44,6 +58,3 @@ h1{
 .socialmedia a{
     text-decoration: none;
 }
-
-
-
