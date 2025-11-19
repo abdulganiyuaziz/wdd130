@@ -1,0 +1,114 @@
+/* ===== HEADER ===== */
+
+header {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #ffffff;
+  border-bottom: 2px solid #ddd;
+}
+
+header img {
+  width: 120px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+nav a {
+  color: #003366;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #0066cc;
+}
+
+/* ===== HERO ===== */
+
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero h1 {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 3rem;
+  background: rgba(0,0,0,0.5);
+  padding: .5rem 1rem;
+  border-radius: 8px;
+}
+
+/* ===== HISTORY SECTION ===== */
+
+.history {
+  padding: 2rem;
+}
+
+.history-grid {
+  display: grid;
+  grid-template-columns: 1fr 300px 1fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.history-grid img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* ===== ADVENTURES SECTION ===== */
+
+.adventures {
+  padding: 2rem;
+}
+
+.adventure-gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.adventure-gallery img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+figure {
+  text-align: center;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #eee;
+  margin-top: 2rem;
+}
+
+footer .social {
+  display: flex;
+  gap: 1rem;
+}
+
+footer .social img {
+  width: 35px;
+}
